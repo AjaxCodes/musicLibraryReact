@@ -91,23 +91,7 @@ function NavItem(props){
 }
 // axios with table 
 
-class App extends Component {
-  render() { // add table here\
 
-    return (
-       <div className="container">
-        <div className="col-xs-8">
-        <h1>the awesome mix </h1>
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">music library</h5>
-            </div>
-          </div>
-        </div>
-       </div>
-    );
-  }
-}
 class App extends Component {
   state = {
     music: []
